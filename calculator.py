@@ -107,7 +107,7 @@ while True:
         bmi(w, h / 100)   # here the height gets converted into metres(m) before passing it to the func.
         print("Select option to continue or type exit to exit.")
 
-    if option == "EXIT".lower():
+    if option == "EXIT"or option == "exit":
         break
 
 
