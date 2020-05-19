@@ -28,7 +28,11 @@ def multiply(mr1, mr2):
 
 def divide(dv1, dr2):
 
-    print("Division is {}".format(dv1//dr2))
+     try:
+        result = dv1 / dr2
+        print("Division is {}".format(result))
+    except ZeroDivisionError:
+        print("Cannot device by zero")
 
 
 def bmi(w1, h1):
